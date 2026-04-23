@@ -13,7 +13,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class City {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
